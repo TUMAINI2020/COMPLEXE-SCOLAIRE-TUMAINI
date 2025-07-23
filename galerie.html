@@ -1,66 +1,40 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>Galerie - Tumaini</title>
-    <style>
-        body { font-family: Arial; margin: 0; padding: 0; }
-        header, footer {
-            background-color: #004080;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        nav {
-            background-color: #0066cc;
-            text-align: center;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-        section {
-            padding: 20px;
-        }
-        .gallery img {
-            width: 200px;
-            margin: 10px;
-            border: 2px solid #ccc;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Galerie - CS Tumaini</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f2f2f2; margin:0; padding:0; }
+    header { background:#004aad; color:#fff; text-align:center; padding:20px; }
+    .gallery-container { display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:20px; padding:20px; }
+    .gallery-item img, .gallery-item iframe { width:100%; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.1); }
+  </style>
 </head>
 <body>
-
-<header>
-    <h1>Galerie Photo</h1>
-</header>
-
-<nav>
-    <a href="index.html">Accueil</a>
-    <a href="apropos.html">À propos</a>
-    <a href="contact.html">Contact</a>
-    <a href="inscription.html">Inscription</a>
-    <a href="galerie.html">Galerie</a>
-    <a href="services.html">Services</a>
-    <a href="temoignages.html">Témoignages</a>
-    <a href="actualites.html">Actualités</a>
-    <a href="faq.html">FAQ</a>
-</nav>
-
-<section class="gallery">
-    <h2>Moments forts de l'école</h2>
-    <img src="images/photo1.jpg" alt="Activité 1">
-    <img src="images/photo2.jpg" alt="Activité 2">
-    <img src="images/photo3.jpg" alt="Activité 3">
-    <img src="images/photo4.jpg" alt="Activité 4">
-</section>
-
-<footer>
-    &copy; 2025 Complexe Scolaire Tumaini
-</footer>
-
+  <header><h1>Galerie du Complexe Scolaire Tumaini</h1></header>
+  <section class="gallery-container">
+    <div class="gallery-item"><img src="image/20250307_103556.jpg" alt="20250307_103556.jpg"></div>
+    <div class="gallery-item"><img src="image/PHOTO 1.png.avif" alt="PHOTO 1.png.avif"></div>
+    <div class="gallery-item"><img src="image/WhatsApp Image 2025-07-22 à 21.15.56_f6b36c41.jpg" alt="WhatsApp Image 2025-07-22 à 21.15.56_f6b36c41.jpg"></div>
+    <div class="gallery-item"><img src="image/WhatsApp Image 2025-07-22 à 21.15.58_b5f3cd6f.jpg" alt="WhatsApp Image 2025-07-22 à 21.15.58_b5f3cd6f.jpg"></div>
+    <div class="gallery-item"><img src="image/WhatsApp Image 2025-07-22 à 21.16.05_0b76ccaf.jpg" alt="WhatsApp Image 2025-07-22 à 21.16.05_0b76ccaf.jpg"></div>
+    <div class="gallery-item"><img src="image/WhatsApp Image 2025-07-22 à 21.16.05_571e6d2f.jpg" alt="WhatsApp Image 2025-07-22 à 21.16.05_571e6d2f.jpg"></div>
+    <div class="gallery-item"><img src="image/WhatsApp Image 2025-07-22 à 21.16.07_bf167451.jpg" alt="WhatsApp Image 2025-07-22 à 21.16.07_bf167451.jpg"></div>
+    <div class="gallery-item"><img src="image/WhatsApp Image 2025-07-22 à 21.16.11_d0cd0c72.jpg" alt="WhatsApp Image 2025-07-22 à 21.16.11_d0cd0c72.jpg"></div>
+    <div class="gallery-item"><img src="image/WhatsApp Image 2025-07-22 à 21.16.12_9aec7a16.jpg" alt="WhatsApp Image 2025-07-22 à 21.16.12_9aec7a16.jpg"></div>
+    <div class="gallery-item"><img src="image/WhatsApp Image 2025-07-22 à 21.16.13_e3b632d7.jpg" alt="WhatsApp Image 2025-07-22 à 21.16.13_e3b632d7.jpg"></div>
+    <div class="gallery-item"><img src="image/WhatsApp Image 2025-07-22 à 21.16.14_411a815f.jpg" alt="WhatsApp Image 2025-07-22 à 21.16.14_411a815f.jpg"></div>
+    <div class="gallery-item"><img src="image/WhatsApp Image 2025-07-22 à 21.16.15_b5da64e1.jpg" alt="WhatsApp Image 2025-07-22 à 21.16.15_b5da64e1.jpg"></div>
+    <div class="gallery-item"><img src="image/logo-tumaini.png.jpg" alt="logo-tumaini.png.jpg"></div>
+    <div class="gallery-item"><img src="image/photo2.png.jpg" alt="photo2.png.jpg"></div>
+    <div class="gallery-item"><img src="image/photo3.png.jpg" alt="photo3.png.jpg"></div>
+    <div class="gallery-item"><img src="image/photo4.png.jpg" alt="photo4.png.jpg"></div>
+    <div class="gallery-item"><img src="image/promoteur de l'ecole.jpg" alt="promoteur de l'ecole.jpg"></div>
+    <div class="gallery-item"><iframe src="https://www.youtube.com/embed/WCwkqNTYBgo" allowfullscreen></iframe></div>
+    <div class="gallery-item"><iframe src="https://www.youtube.com/embed/cbJQKbtz_g0" allowfullscreen></iframe></div>
+    <div class="gallery-item"><iframe src="https://www.youtube.com/embed/oS1-XDDX2-w" allowfullscreen></iframe></div>
+    <div class="gallery-item"><iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/hakiza.ngambeki/videos/1119839879463230/" allowfullscreen></iframe></div>
+    <div class="gallery-item"><iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/theophile.ngambeki/videos/761473298475691/" allowfullscreen></iframe></div>
+  </section>
 </body>
 </html>
